@@ -30,9 +30,12 @@ for(String s1:a)
 	}
 
 System.out.println("----------  *****Using  forloop********  ---------");
+
 ArrayList<String> forloop=new ArrayList<String>();
 for(int i=0;i<s.length;i++) {
+
 	forloop.add(s[i]);
+	
 	for(String s1:forloop)
 	{
 		System.out.println(s1);//print ArrayList

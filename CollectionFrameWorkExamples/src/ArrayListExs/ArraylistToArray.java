@@ -2,7 +2,7 @@ package ArrayListExs;
 
 import java.util.ArrayList;
 
-public class ArraylistToArrayToArraList {
+public class ArraylistToArray {
 
 	public static void main(String[] args) {
 		ArrayList<String> a=new ArrayList<String>();
@@ -20,9 +20,13 @@ public class ArraylistToArrayToArraList {
 		for(String s1:s) {
 			System.out.println(s1);
 		}
-		System.out.println("-------using shorcut---------");
+		System.out.println("-------using shorcut toArray()---------");
 		
-		String[] a1=a.toArray(new String[a.size()]);
+		String [] a1=a.toArray(new String[a.size()]);
+		for(String s2:a1) {
+			System.out.println(s2);
+		}
+		
 	}
 
 }

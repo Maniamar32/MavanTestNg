@@ -2,7 +2,7 @@ package LinkedListEx;
 
 import java.util.LinkedList;
 
-public class LinkedListCone {
+public class LinkedListClone {
 
 	public static void main(String[] args) {
 		LinkedList<String> l=new LinkedList<String>();

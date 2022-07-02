@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelDataSupllier {
 
-	public  void getdata() throws Exception {
+	public  void logindata() throws Exception {
 File excelfile=new File("./resources/Testexcel.xlsx");
 // System.out.println(excelfile.exists());
 

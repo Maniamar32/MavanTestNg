@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-02T15:47:03 IST" name="Suite" finished-at="2022-07-02T15:49:59 IST" duration-ms="176324">
+    <groups>
+    </groups>
+    <test started-at="2022-07-02T15:47:03 IST" name="Test" finished-at="2022-07-02T15:48:16 IST" duration-ms="73210">
+      <class name="com.google.OrangeHRM">
+        <test-method signature="LaunchBrowser()[pri:0, instance:com.google.OrangeHRM@7bd4937b]" started-at="2022-07-02T15:47:03 IST" name="LaunchBrowser" finished-at="2022-07-02T15:48:00 IST" duration-ms="56867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="Login()[pri:0, instance:com.google.OrangeHRM@7bd4937b]" started-at="2022-07-02T15:48:00 IST" name="Login" finished-at="2022-07-02T15:48:10 IST" duration-ms="10025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.google.OrangeHRM@7bd4937b]" started-at="2022-07-02T15:48:10 IST" name="verifyLogin" finished-at="2022-07-02T15:48:16 IST" duration-ms="5914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- com.google.OrangeHRM -->
+    </test> <!-- Test -->
+    <test started-at="2022-07-02T15:48:17 IST" name="TestLogin" finished-at="2022-07-02T15:49:07 IST" duration-ms="49902">
+      <class name="com.google.OrangeHRM">
+        <test-method signature="LaunchBrowser()[pri:0, instance:com.google.OrangeHRM@6fdbe764]" started-at="2022-07-02T15:48:17 IST" name="LaunchBrowser" finished-at="2022-07-02T15:48:52 IST" duration-ms="34673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="Login()[pri:0, instance:com.google.OrangeHRM@6fdbe764]" started-at="2022-07-02T15:48:52 IST" name="Login" finished-at="2022-07-02T15:49:05 IST" duration-ms="12435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="navigateToMyinfo()[pri:0, instance:com.google.OrangeHRM@6fdbe764]" started-at="2022-07-02T15:49:05 IST" name="navigateToMyinfo" finished-at="2022-07-02T15:49:07 IST" duration-ms="2758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMyinfo -->
+      </class> <!-- com.google.OrangeHRM -->
+    </test> <!-- TestLogin -->
+    <test started-at="2022-07-02T15:49:07 IST" name="TestVerify" finished-at="2022-07-02T15:49:59 IST" duration-ms="51689">
+      <class name="com.google.TestGoogle">
+        <test-method signature="LaunchBrowser()[pri:0, instance:com.google.TestGoogle@4a883b15]" started-at="2022-07-02T15:49:07 IST" name="LaunchBrowser" finished-at="2022-07-02T15:49:59 IST" duration-ms="51666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+      </class> <!-- com.google.TestGoogle -->
+    </test> <!-- TestVerify -->
+  </suite> <!-- Suite -->
+</testng-results>

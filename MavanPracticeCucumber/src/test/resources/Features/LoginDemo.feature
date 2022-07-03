@@ -1,8 +1,8 @@
 Feature: Test login functionality
 
   Scenario: Check login
-    Given browser is open
-    And user is on login page
+    Given first browser is open
+    And user is working on login page
     When user enters username and password
-    And user clicks on login
+    And clicks on login page
     Then user is navigated to the home page

@@ -10,7 +10,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class LoginDemoSteps {
+public class DataDrivenTestingSteps {
 	WebDriver driver=null;
 
 	@Given("User is open google browser")

@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/Features/LoginDemo.feature", glue= {"StepDefinitions"},
+@CucumberOptions(features="src/test/resources/Features/DataDrivenTesting.feature", glue= {"StepDefinitions"},
 monochrome=true,
 plugin= {"pretty","junit:target/JUnitReports/LoginDemo.xml",
 		         "json:target/JSONReports/LoginDemo.json",
@@ -15,6 +15,6 @@ plugin= {"pretty","junit:target/JUnitReports/LoginDemo.xml",
 
 )
 
-public class LoginDemoRunner {
+public class DataDrivenTestingRunner {
 
 }

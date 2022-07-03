@@ -8,9 +8,9 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/resources/Features/DataDrivenTesting.feature", glue= {"StepDefinitions"},
 monochrome=true,
-plugin= {"pretty","junit:target/JUnitReports/LoginDemo.xml",
-		         "json:target/JSONReports/LoginDemo.json",
-		         "html:target/HtmlReports/LoginDemo.html"
+plugin= {"pretty","junit:target/JUnitReports/POM.xml",
+		         "json:target/JSONReports/POM.json",
+		         "html:target/HtmlReports/POM.html"
 		         }
 
 )

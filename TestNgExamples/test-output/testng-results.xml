@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-09T19:15:30 IST" name="Default suite" finished-at="2022-07-09T19:17:26 IST" duration-ms="116471">
+    <groups>
+    </groups>
+    <test started-at="2022-07-09T19:15:30 IST" name="Default test" finished-at="2022-07-09T19:17:26 IST" duration-ms="116471">
+      <class name="com.hyr.Dataproviderprograms.OrangeHRMDataProvider">
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.hyr.Dataproviderprograms.OrangeHRMDataProvider@272113c4]" started-at="2022-07-09T19:15:30 IST" name="LoginTest" data-provider="Logindetails" finished-at="2022-07-09T19:16:26 IST" duration-ms="55915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.hyr.Dataproviderprograms.OrangeHRMDataProvider@272113c4]" started-at="2022-07-09T19:16:26 IST" name="LoginTest" data-provider="Logindetails" finished-at="2022-07-09T19:16:57 IST" duration-ms="30820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.hyr.Dataproviderprograms.OrangeHRMDataProvider@272113c4]" started-at="2022-07-09T19:16:57 IST" name="LoginTest" data-provider="Logindetails" finished-at="2022-07-09T19:17:26 IST" duration-ms="29406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- com.hyr.Dataproviderprograms.OrangeHRMDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

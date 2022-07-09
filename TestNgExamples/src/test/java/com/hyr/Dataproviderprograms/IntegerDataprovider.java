@@ -7,6 +7,7 @@ public class IntegerDataprovider {
 	@Test(dataProvider="dp1")
 	public void test(Integer[] s) {
 		System.out.println(s[0]+">>>"+s[1]);
+		System.out.println("hiii");
 	}
 
 	

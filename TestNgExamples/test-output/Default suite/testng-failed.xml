@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hyr.Dataproviderprograms.FirstDataProvider">
+      <class name="ListenersExamples.Demo">
         <methods>
-          <include name="test"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- com.hyr.Dataproviderprograms.FirstDataProvider -->
+      </class> <!-- ListenersExamples.Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

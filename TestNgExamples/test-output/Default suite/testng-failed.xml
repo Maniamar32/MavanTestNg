@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ListenersExamples.Demo">
+      <class name="com.hyr.invocationCount.InvocationCountWithInvocationTimeOut">
         <methods>
-          <include name="test1"/>
+          <include name="TestMethod1"/>
         </methods>
-      </class> <!-- ListenersExamples.Demo -->
+      </class> <!-- com.hyr.invocationCount.InvocationCountWithInvocationTimeOut -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

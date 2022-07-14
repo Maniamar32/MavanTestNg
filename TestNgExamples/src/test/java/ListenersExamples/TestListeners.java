@@ -35,10 +35,14 @@ public class TestListeners implements ITestListener{
 
 	@Override
 	public void onStart(ITestContext context) {
+		System.out.println("All Tests are started:"+context.getName());	
+
 	}
 
 	@Override
 	public void onFinish(ITestContext context) {
+		System.out.println("All Tests are Finished:"+context.getName());	
+
 	}
 
 }

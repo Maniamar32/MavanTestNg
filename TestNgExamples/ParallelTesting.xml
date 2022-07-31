@@ -5,7 +5,7 @@
   <test  name="Test">
     <classes>
       <class name="com.hyr.ParallelTesting.DemoTest1"/>
-</classes>
+   </classes>
   </test> <!-- Test -->
 
 <test  name="Test1">

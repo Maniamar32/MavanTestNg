@@ -21,7 +21,7 @@ public class CountCharecters {
 				m.put(ch, value+1);
 			}
 		}
-		System.out.println(m);
+		System.out.println("count charecters"+m);
 
 		//  **********print reverse ****************
 		for(int i=n-1;i>=0;i--) {
@@ -33,7 +33,7 @@ public class CountCharecters {
 			for(int j=i+1;j<n;j++) {
 				if(c[i]==c[j])
 				{
-					System.out.println("duplicates are:"+c[i]);
+					System.out.println("duplicates are using forloop:"+c[i]);
 				}
 			}
 
@@ -43,9 +43,12 @@ public class CountCharecters {
 		boolean flage=false;
 		HashSet h=new HashSet();
 		for(char c1:c) {
-			
-			
-			
-		}
+			if(h.add(c1)==false) {
+				System.out.println("duplicates are found hashset;"+c1);
+			flage=true;
+			}
+			} if(flage==false) {
+			System.out.println(" duplicates are not found");
+			}
+			}
 	}
-}

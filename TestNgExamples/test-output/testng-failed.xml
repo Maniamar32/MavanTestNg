@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hyr.dependes.DependensOnMethodEx">
+      <class name="SeleniumAlertsandPopups.Popupwindow">
         <methods>
-          <include name="login"/>
+          <include name="init"/>
         </methods>
-      </class> <!-- com.hyr.dependes.DependensOnMethodEx -->
+      </class> <!-- SeleniumAlertsandPopups.Popupwindow -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

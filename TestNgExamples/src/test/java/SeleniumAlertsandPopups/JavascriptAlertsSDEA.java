@@ -34,7 +34,7 @@ public class JavascriptAlertsSDEA {
 	driver.switchTo().alert().dismiss();*/
 
 	//send text to inputbox
-	driver.findElement(By.xpath("//button[normalize-space()='Click for JS Prompt']")).click();
+	driver.findElement(By.xpath("//button[text()='Click for JS Prompt']")).click();
     System.out.println("elemnt clicked");
 	Thread.sleep(5000);
 	Alert a=driver.switchTo().alert();

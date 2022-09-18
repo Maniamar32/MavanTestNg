@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-17T15:47:12 IST" name="Default suite" finished-at="2022-09-17T15:47:40 IST" duration-ms="27478">
+  <suite started-at="2022-09-18T15:11:18 IST" name="Default suite" finished-at="2022-09-18T15:13:16 IST" duration-ms="117334">
     <groups>
     </groups>
-    <test started-at="2022-09-17T15:47:12 IST" name="Default test" finished-at="2022-09-17T15:47:40 IST" duration-ms="27478">
-      <class name="com.hyr.Xpath.AbsoluteAndRelative">
-        <test-method signature="Xpathsdata()[pri:0, instance:com.hyr.Xpath.AbsoluteAndRelative@53aac487]" started-at="2022-09-17T15:47:12 IST" name="Xpathsdata" finished-at="2022-09-17T15:47:39 IST" duration-ms="27099" status="PASS">
+    <test started-at="2022-09-18T15:11:18 IST" name="Default test" finished-at="2022-09-18T15:13:16 IST" duration-ms="117334">
+      <class name="com.hyr.windowshandling.MultipleWindows">
+        <test-method signature="MultiWidows()[pri:0, instance:com.hyr.windowshandling.MultipleWindows@53aac487]" started-at="2022-09-18T15:11:18 IST" name="MultiWidows" finished-at="2022-09-18T15:13:16 IST" duration-ms="117105" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Xpathsdata -->
-      </class> <!-- com.hyr.Xpath.AbsoluteAndRelative -->
+        </test-method> <!-- MultiWidows -->
+      </class> <!-- com.hyr.windowshandling.MultipleWindows -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

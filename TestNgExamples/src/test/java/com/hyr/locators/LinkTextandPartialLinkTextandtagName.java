@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LinkTextandPartialLinkText {
+public class LinkTextandPartialLinkTextandtagName {
    @Test
 	public void LinkText() {
 	   WebDriverManager.chromedriver().setup();

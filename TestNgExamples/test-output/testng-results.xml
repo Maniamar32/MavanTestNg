@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-19T06:48:25 IST" name="Default suite" finished-at="2022-09-19T06:48:58 IST" duration-ms="33603">
+  <suite started-at="2022-09-28T13:53:27 IST" name="Default suite" finished-at="2022-09-28T13:54:11 IST" duration-ms="44229">
     <groups>
     </groups>
-    <test started-at="2022-09-19T06:48:25 IST" name="Default test" finished-at="2022-09-19T06:48:58 IST" duration-ms="33603">
-      <class name="com.hyr.locators.LinkTextandPartialLinkText">
-        <test-method signature="LinkText()[pri:0, instance:com.hyr.locators.LinkTextandPartialLinkText@54e1c68b]" started-at="2022-09-19T06:48:25 IST" name="LinkText" finished-at="2022-09-19T06:48:58 IST" duration-ms="33400" status="PASS">
+    <test started-at="2022-09-28T13:53:27 IST" name="Default test" finished-at="2022-09-28T13:54:11 IST" duration-ms="44229">
+      <class name="com.hyr.sridharClass.DropDownXle">
+        <test-method signature="MultipleSelect()[pri:0, instance:com.hyr.sridharClass.DropDownXle@53aac487]" started-at="2022-09-28T13:53:27 IST" name="MultipleSelect" finished-at="2022-09-28T13:54:11 IST" duration-ms="43889" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LinkText -->
-      </class> <!-- com.hyr.locators.LinkTextandPartialLinkText -->
+        </test-method> <!-- MultipleSelect -->
+      </class> <!-- com.hyr.sridharClass.DropDownXle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hyr.sridharClass.RegistrationForm">
+      <class name="com.hyr.sridharClass.DragAndDrop">
         <methods>
-          <include name="Registration"/>
+          <include name="SingleEx"/>
         </methods>
-      </class> <!-- com.hyr.sridharClass.RegistrationForm -->
+      </class> <!-- com.hyr.sridharClass.DragAndDrop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

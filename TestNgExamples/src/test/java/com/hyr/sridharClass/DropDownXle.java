@@ -23,9 +23,9 @@ public class DropDownXle {
 		WebElement l =driver.findElement(By.xpath("//select[@id=\"multi-select\"]"));
 		Select  s=new Select(l);
 		Actions a=new Actions(driver);
-		a.keyDown(Keys.CONTROL).click(s.getOptions().get(4)).click(s.getOptions().get(6)).build().perform();
+		a.keyDown(Keys.CONTROL).click(s.getOptions().get(4)).click(s.getOptions().get(5)).click(s.getOptions().get(6)).build().perform();
 		Thread.sleep(3000);
-	
+		s.deselectByIndex(4);
 		
 		
 	}
